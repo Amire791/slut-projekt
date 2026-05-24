@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mercedes Electric</title>
+
+    <!-- Din CSS -->
+    <link rel="stylesheet" href="bilar.css">
+
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Mercedes-Benz</h1>
+    </nav>
+
+    <section class="title">
+        <h2>Electric Models</h2>
+        <p>Utforska framtidens elbilar från Mercedes-Benz</p>
+    </section>
+
+    <section class="cars">
+
+        <!-- EQS -->
+        <div class="card">
+
+            <a href="EQS.jpg"
+               data-lightbox="electric"
+               data-title="Mercedes EQS">
+
+                <img src="EQS.jpg" alt="Mercedes EQS">
+            </a>
+
+            <div class="info">
+                <h3>EQS</h3>
+
+                <p>
+                    Lyxig el-sedan med futuristisk design,
+                    hög komfort och lång räckvidd.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- EQE -->
+        <div class="card">
+
+            <a href="el.jpg"
+               data-lightbox="electric"
+               data-title="Mercedes EQE">
+
+                <img src="el.jpg" alt="Mercedes EQE">
+            </a>
+
+            <div class="info">
+                <h3>EQE</h3>
+
+                <p>
+                    Modern elbil med avancerad teknik
+                    och premium interiör.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- EQS SUV -->
+        <div class="card">
+
+            <a href="EQS SUV.jpg"
+               data-lightbox="electric"
+               data-title="Mercedes EQS SUV">
+
+                <img src="EQS SUV.jpg" alt="Mercedes EQS SUV">
+            </a>
+
+            <div class="info">
+                <h3>EQS SUV</h3>
+
+                <p>
+                    Elektrisk SUV som kombinerar
+                    lyx, kraft och innovation.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <a href="model.html" class="back-btn">Tillbaka</a>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Lightbox JS -->
+    <script src="js/lightbox.min.js"></script>
+
+    <!-- Settings -->
+    <script>
+        lightbox.option({
+            resizeDuration: 300,
+            fadeDuration: 300,
+            imageFadeDuration: 300,
+            wrapAround: true
+        });
+    </script>
+
+</body>
+
+</html>
